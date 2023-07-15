@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-image: url("摩托车.webp"); /* 设置背景图片为"摩托车.webp" */
+        background-attachment: fixed; /* 设置背景图片固定不滚动 */
+        background-repeat: no-repeat; /* 设置背景图片不重复 */
+        background-size: cover; /* 将背景图片铺满整个容器 */
+      }
+
+      .container {
+        display: flex; /* 将容器设置为弹性盒子布局 */
+        justify-content: center; /* 水平居中对齐容器内元素 */
+        align-items: center; /* 垂直居中对齐容器内元素 */
+        height: 100vh; /* 将容器的高度设置为视口高度的100% */
+      }
+
+      .scrollable-content {
+        height: 600px; /* 设置滚动区域的高度为600像素 */
+        width: 400px; /* 设置滚动区域的宽度为400像素 */
+        overflow: auto; /* 当内容超出滚动区域时显示滚动条 */
+        color: rgb(21, 113, 195); /* 设置文本颜色为RGB(21, 113, 195) */
+        border: 2px solid white; /* 设置边框为2像素的白色实线边框 */
+        padding: 10px; /* 设置内边距为10像素 */
+        background-color: rgba(255, 255, 255, 0.608);
+        /* 设置背景颜色为白色，不透明度为0.608 */
+        margin: 0 auto; /* 将滚动区域在容器内居中显示 */
+      }
+
+      .scrollable-content::-webkit-scrollbar {
+        width: 0; /* 隐藏滚动条(删除这部分即可显示滚动条)  */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="scrollable-content" style="text-align: center">
+        <p>
+          这是一段可滚动的文本内容。这是一段可滚动的文本内容。这是一段可滚动的文本内容。这是一段可滚动的文本内容。
+        </p>
+        <p>这是另一段可滚动的文本内容。</p>
+        <p>这是第三段可滚动的文本内容。</p>
+        <p>这是第四段可滚动的文本内容。</p>
+        <p>这是第五段可滚动的文本内容。</p>
+        <p>这是一段可滚动的文本内容。</p>
+        <p>这是另一段可滚动的文本内容。</p>
+        <p>这是第三段可滚动的文本内容。</p>
+        <p>这是第四段可滚动的文本内容。</p>
+        <p>这是第五段可滚动的文本内容。</p>
+        <p>这是一段可滚动的文本内容。</p>
+        <p>这是另一段可滚动的文本内容。</p>
+        <p>这是第三段可滚动的文本内容。</p>
+        <p>
+          这是第四段可滚动的文本内容。这是一段可滚动的文本内容。这是一段可滚动的文本内容。这是一段可滚动的文本内容。这是一段可滚动的文本内容。
+        </p>
+        <p>这是第五段可滚动的文本内容。</p>
+        <p>这是一段可滚动的文本内容。</p>
+        <p>这是另一段可滚动的文本内容。</p>
+        <p>这是第三段可滚动的文本内容。</p>
+        <p>这是第四段可滚动的文本内容。</p>
+        <p>这是第五段可滚动的文本内容。</p>
+        <p>这是一段可滚动的文本内容。</p>
+        <p>这是另一段可滚动的文本内容。</p>
+        <p>这是第三段可滚动的文本内容。</p>
+        <p>这是第四段可滚动的文本内容。</p>
+        <p>这是第五段可滚动的文本内容。</p>
+      </div>
+    </div>
+  </body>
+</html>
